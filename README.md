@@ -6,7 +6,7 @@ This is my first actual notebook that I wanted to share. We will take a look at 
 
 <img src="https://cdn-images-1.medium.com/max/2400/1*Gf0bWgr2wst9A1XR5gakLg.png", title="The complete ML steps" >
 
-When the notebook will be finished I will post it on Kaggle as well.
+When the notebook will be finished I will post it on Kaggle as well. Until then let's get to work.
 
 <b>Thanks to I.J. for making me post it early!</b>
 
