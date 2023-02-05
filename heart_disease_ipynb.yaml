@@ -1,4 +1,0 @@
-name: heart_disease_ipynb
-channels:
-  - defaults
-prefix: /Users/aleksanderciesielski/opt/miniconda3/envs/heart_disease_ipynb
