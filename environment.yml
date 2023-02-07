@@ -1,4 +1,4 @@
-name: /Users/aleksanderciesielski/Conda/heart_disease_project/env
+name: env
 channels:
   - defaults
 dependencies:
