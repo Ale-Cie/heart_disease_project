@@ -1,4 +1,4 @@
-name: env
+name: ML-env
 channels:
   - defaults
 dependencies:

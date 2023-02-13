@@ -10,11 +10,15 @@ When the notebook will be finished I will post it on Kaggle as well. Until then 
 
 <b>Thanks to I.J. for making me post it early!</b>
 
--- 07.02.2023 --
+<i>-- 13.02.2023 --</i>
+
+Some more changes added to almost all files. I changed the environment name in the enivronment.yml from a generic and bland "env" to "ML-env". The notebook has been updated with inspection of feature importances for both `LogisticRegression()` and `RandomForestClassifier()`. Round 1 of the modelling and tuning is done, now we're off to Round 2 and Round 3. Each of them will be dedicated to a single model that I'll attempt to tune to get as close to the accuracy goal as possible. I am also adding the notebook in the current state to Kaggle - you can visit it right <a href="https://www.kaggle.com/code/aleksanderciesielski/heart-disease-ml-workflow">here</a>.
+
+<i>-- 07.02.2023 --</i>
 
 I deleted the .gitignore file. We can almost say that the notebook is "done", although it still needs some changes, and more thorough tuning. I tuned the models with both RandomizedSearchCV and GridSearchCV, then I evaluated the models with both the classification report and cross-validated metrics. It's almost completed, after I'll finish the whole workflow I'll go back to the start and go into more small details.
 
--- 05.02.2023 --
+<i>-- 05.02.2023 --</i>
 
 The README.md was rewritten, a correct environment.yml was pushed.
 The current steps that I (more or less) cover in this notebook are:
@@ -26,6 +30,6 @@ The current steps that I (more or less) cover in this notebook are:
 
 Currently working on step 5. Modelling. So far I have created three models, LogisticRegression(), KNearestNeighbors() and RandomForestClassifier(). After experimenting with different values for n_neigbors I decided to abandon KNN as it seems to not be good enough of a model for this particular dataset.
 
--- 04.02.2023 --
+<i>-- 04.02.2023 --</i>
 
 The repository was created, unedited files were pushed.
