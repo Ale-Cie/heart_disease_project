@@ -6,9 +6,13 @@ This is my first actual notebook that I wanted to share. We will take a look at 
 
 <img src="https://cdn-images-1.medium.com/max/2400/1*Gf0bWgr2wst9A1XR5gakLg.png" title="The complete ML steps" />
 
-When the notebook will be finished I will post it on Kaggle as well. Until then let's get to work.
+Since the notebook was considered "done" I put it up on Kaggle, and you can see it right <a href="https://www.kaggle.com/code/aleksanderciesielski/heart-disease-ml-workflow">here</a>.
 
 <b>Thanks to I.J. for making me post it early!</b>
+
+<i>-- 20.02.2023 --</i>
+
+Another week another update. Round 2 is finished (for now at least) - I went over fine tuning the `LogisticRegression()` model with both `RandomizedSearchCV()` and `GridSearchCV()`. Then I recreated the best models that these functions found and went through all the metrics as in Round 1. Finally, I attempted to manually tune the parameters that were different between two best models to see, if changing them in some way makes any difference in performance. I also decided to dump two models, even though they both underperform.
 
 <i>-- 13.02.2023 --</i>
 
