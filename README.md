@@ -10,6 +10,10 @@ Since the notebook was considered "done" I put it up on Kaggle, and you can see 
 
 <b>Thanks to I.J. for making me post it early!</b>
 
+<i>-- 26.02.2023 --</i>
+
+Tough week so not much of an update - I reworked the second round so that it functions as it should, and we actually are quite a bit happier with the exported model. I checked to see if the features in Round 2 were used to their fullest potential and I initiated the third round by creating a new dataframe. Oh and I also Kaggle-proofed the code so that it won't break each time I upload it there and forget to add an url to the dataset. See you next time!
+
 <i>-- 20.02.2023 --</i>
 
 Another week another update. Round 2 is finished (for now at least) - I went over fine tuning the `LogisticRegression()` model with both `RandomizedSearchCV()` and `GridSearchCV()`. Then I recreated the best models that these functions found and went through all the metrics as in Round 1. Finally, I attempted to manually tune the parameters that were different between two best models to see, if changing them in some way makes any difference in performance. I also decided to dump two models, even though they both underperform.
