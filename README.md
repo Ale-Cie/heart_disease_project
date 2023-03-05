@@ -2,13 +2,19 @@
 
 A complete workflow through the Cleveland heart disease dataset. From data analysis, through model creation to experimenting on improving the model.
 
-This is my first actual notebook that I wanted to share. We will take a look at the slightly altered Cleveland UCI heart disease dataset, available on Kaggle under this <a href="https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci/code?select=heart_cleveland_upload.csv">link</a>. In it's current state it is not yet finished, but this will change in the next few weeks (hopefully). In this notebook I am attempting to go through an entire workflow as depicted below (author is Daniel Bourke, you can read about these steps right <a href="https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/">here</a> on his website)
+This is my first actual notebook that I created and wanted to share. We will take a look at the slightly altered Cleveland UCI heart disease dataset, available on Kaggle under this <a href="https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci/code?select=heart_cleveland_upload.csv">link</a>. After a month on and off working on this notebook I consider it done, but I don't exclude coming back to it in some time to try new things. In this notebook I am going through an entire workflow as depicted below (author is Daniel Bourke, you can read about these steps right <a href="https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/">here</a> on his website)
 
 <img src="https://cdn-images-1.medium.com/max/2400/1*Gf0bWgr2wst9A1XR5gakLg.png" title="The complete ML steps" />
 
-Since the notebook was considered "done" I put it up on Kaggle, and you can see it right <a href="https://www.kaggle.com/code/aleksanderciesielski/heart-disease-ml-workflow">here</a>.
+The notebook in its current state should be available on Kaggle, and you can see it right <a href="https://www.kaggle.com/code/aleksanderciesielski/heart-disease-ml-workflow">here</a>.
+
+Please, as I stated in the notebook - leave your comments and opinions either here or on Kaggle since I want to improve my skills and knowledge in the Machine Learning topic.
 
 <b>Thanks to I.J. for making me post it early!</b>
+
+<i>-- 05.03.2023 -- </i>
+
+Another week another update. I believe it's the last one for some time now, since I feel I'm done with this notebook. This time I managed to finish the third round - I created and evaluated the default, `RandomizedSearchCV()` and `GridSearchCV()` versions of the `RandomForestClassifier()`. I think I'm finally understanding the meaning behind cross-validated metrics and what they mean in terms of overfitting the model. I did not reach the goal I set out to achieve but it doesn't really matter. What matters is I went through the whole workflow three times, I started experimenting with the datasets and what can be removed/improved in them and in general I had good time, improved my skills probably a bit. So that's a wrap for now, see you round!
 
 <i>-- 26.02.2023 --</i>
 
