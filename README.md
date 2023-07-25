@@ -2,7 +2,9 @@
 
 A complete workflow through the Cleveland heart disease dataset. From data analysis, through model creation to experimenting on improving the model.
 
-This is my first actual notebook that I created and wanted to share. We will take a look at the slightly altered Cleveland UCI heart disease dataset, available on Kaggle under this <a href="https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci/code?select=heart_cleveland_upload.csv">link</a>. After a month on and off working on this notebook I consider it done, but I don't exclude coming back to it in some time to try new things. In this notebook I am going through an entire workflow as depicted below (author is Daniel Bourke, you can read about these steps right <a href="https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/">here</a> on his website)
+Historically - this was my first actual notebook that I created and wanted to share. Since it's inception I worked on some more projects, but after a nearly 5 months long hiatus I returned back to this repository. I wanted to use a simple, clean dataset to experiment with building my very own neuraln networks.
+
+In this notebook we will take a look at the slightly altered Cleveland UCI heart disease dataset, available on Kaggle under this <a href="https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci/code?select=heart_cleveland_upload.csv">link</a>. In here I am going through an entire workflow as depicted below (author is Daniel Bourke, you can read about these steps right <a href="https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/">here</a> on his website)
 
 <img src="https://cdn-images-1.medium.com/max/2400/1*Gf0bWgr2wst9A1XR5gakLg.png" title="The complete ML steps" />
 
@@ -11,6 +13,10 @@ The notebook in its current state should be available on Kaggle, and you can see
 Please, as I stated in the notebook - leave your comments and opinions either here or on Kaggle since I want to improve my skills and knowledge in the Machine Learning topic.
 
 <b>Thanks to I.J. for making me post it early!</b>
+
+<i>-- 25.07.2023 --</i>
+
+After a long break from this dataset I wanted to try setting up my very own binary classification neural network. So far I put up a simple one, with an input layer, one hidden Dense layer, one hidden Dropout layer and then the output layer. This simple network managed to score 83.333% which sounds satisfactory, but I'm willing to experiment with the structure of the network. That's gonna happen in the next update though, for now please check out the `headrt_disease_project_2.ipynb`.
 
 <i>-- 05.03.2023 -- </i>
 
