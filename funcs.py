@@ -64,7 +64,8 @@ def score_model(predictions, true_values):
 
     return score 
     
-def sequencer(input_shape, units1, units2, rate1, iteration, units3=None, rate2=None, rate3=None, sequence=[]):
+def sequencer(input_shape, units1, units2, rate1, iteration, units3=None, rate2=None, rate3=None):
+    sequence=[]
     suffix = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     layers = tf.keras.layers
     if iteration == 3:
