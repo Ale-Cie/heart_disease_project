@@ -1,0 +1,3 @@
+model_1_params: (10, 0.3)
+model_2_params: (13, 0.3)
+model_4_1_best_params: (13, 10, 7, 0.2, 0.3, 0.3)

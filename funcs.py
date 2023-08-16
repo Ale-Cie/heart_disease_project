@@ -120,6 +120,7 @@ def network_dict(input_shape, params_list, callbacks, data, iteration):
         new_model.fit(
             x= X_train,
             y = y_train,
+            validation_split= 0.25,
             batch_size= 20,
             epochs= 200,
             callbacks= callbacks,
