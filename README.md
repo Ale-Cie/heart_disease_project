@@ -12,7 +12,11 @@ The notebook in its current state should be available on Kaggle, and you can see
 
 Please, as I stated in the notebook - leave your comments and opinions either here or on Kaggle since I want to improve my skills and knowledge in the Machine Learning topic.
 
-<b>Thanks to I.J. for making me post it early!</b>
+<b>Thanks to I.J. for helping with the initial notebook!</b>
+
+<i>-- 16.09.2023 --</i>
+
+Well that took some time, but August was really busy for me. This is the last update for another while, since I feel I am done with this notebook and the dataset. I completed a run of extensive (in my opinion) experimentation and exported the best network I had. I went through multiple iterations of different structures, tweaking the units and dropout rates as I went along. As I say at the bottom of the new notebook - if you've got anything you'd like to say or teach me, please don't hesitate to contact me via e-mail or the contact form on my <a href="https://aleksanderc.pythonanywhere.com">website</a>.
 
 <i>-- 25.07.2023 --</i>
 
