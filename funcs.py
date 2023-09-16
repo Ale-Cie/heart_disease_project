@@ -68,7 +68,12 @@ def sequencer(input_shape, units1, units2, rate1, iteration, units3=None, rate2=
     sequence=[]
     suffix = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     layers = tf.keras.layers
-    if iteration == 3:
+    if iteration == 2:
+        sequence.append(layers.BatchNormalization(input_shape= input_shape, name=f"IL_{suffix}")),
+        sequence.append(layers.Dense(units= units1, activation= "relu", name=f"HDL1_{suffix}")),
+        sequence.append(layers.Dropout(rate= rate1, name=f"HDpL_{suffix}")),
+        sequence.append(layers.Dense(units= 1, activation= "sigmoid", name=f"OL_{suffix}"))
+    elif iteration == 3:
         sequence.append(layers.BatchNormalization(input_shape= input_shape, name=f"IL_{suffix}")),
         sequence.append(layers.Dense(units= units1, activation= "relu", name=f"HDL1_{suffix}")),
         sequence.append(layers.Dense(units= units2, activation= "relu", name=f"HDL2_{suffix}")),
@@ -89,7 +94,9 @@ def sequencer(input_shape, units1, units2, rate1, iteration, units3=None, rate2=
 
 def network_maker(input_shape, units1, units2, rate1, iteration, units3=None, rate2=None, rate3=None):
     set_seed()
-    if iteration == 3:
+    if iteration == 2:
+        sequence = sequencer(input_shape, units1, units2=None, rate1= rate1, iteration= iteration)
+    elif iteration == 3:
         sequence = sequencer(input_shape, units1, units2, rate1, iteration)
     else:
         sequence = sequencer(input_shape, units1, units2, rate1, iteration, units3, rate2, rate3)
@@ -110,7 +117,10 @@ def network_dict(input_shape, params_list, callbacks, data, iteration):
     for param_set in params_list:
         set_seed()
         close_session()
-        if iteration == 3:
+        if iteration == 2:
+            units1, rate1 = param_set
+            new_model = network_maker(input_shape, units1, units2= "None", rate1= rate1, iteration= iteration)
+        elif iteration == 3:
             units1, units2, rate1 = param_set
             new_model = network_maker(input_shape, units1, units2, rate1, iteration)
         else:
